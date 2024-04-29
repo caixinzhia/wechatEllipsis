@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "一个可控小程序文本展开收起的组件",
   "main": "index.js",
-  "miniprogram":  "lib",
+  "miniprogram":  "lib/index",
   "scripts": {
     "test": "jest"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/caixinzhia/wechatEllipsis.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "wechat",
