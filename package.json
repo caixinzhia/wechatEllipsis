@@ -1,0 +1,41 @@
+{
+  "name": "wechat_ellipsis",
+  "version": "1.0.0",
+  "description": "一个可控小程序文本展开收起的组件",
+  "main": "index.js",
+  "miniprogram":  "lib",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caixinzhia/wechatEllipsis.git"
+  },
+  "keywords": [
+    "wechat",
+    "ellipsis",
+    "text",
+    "ui",
+    "taro",
+    "uniapp"
+  ],
+  "author": "caixinzhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caixinzhia/wechatEllipsis/issues"
+  },
+  "homepage": "https://github.com/caixinzhia/wechatEllipsis#readme",
+  "dependencies": {
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "browserslist": "^4.23.0",
+    "jest": "^27.3.1",
+    "miniprogram-simulate": "^1.4.2"
+  },
+  "browserslist": [
+    "Chrome >= 53",
+    "ChromeAndroid >= 53",
+    "iOS >= 9"
+  ]
+}
