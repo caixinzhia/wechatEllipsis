@@ -1,6 +1,6 @@
 {
   "name": "wechat_ellipsis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个可控小程序文本展开收起的组件",
   "main": "lib",
   "miniprogram": "lib",
