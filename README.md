@@ -12,7 +12,7 @@
 
 ```json
 "usingComponents": {
-  "wechat-ellipsis": "@wechat-ellipsis/lib/index"
+  "wechat-ellipsis": "wechat-ellipsis"
 }
 ```
 
@@ -34,4 +34,6 @@
 | content | 内容 | _string_ | - |
 | row | 展示多少行| _number_ | `1` |
 | actionText | 展开标签内容 | _string_ | 展开 |
+| actionColor | 展开标签字体样式 | _string_ |  cornflowerblue |
 | expandText | 收缩标签内容 | _string_ | 收起 |
+| expandColor | 收起标签字体样式 | _string_ |  cornflowerblue |

@@ -1,5 +1,5 @@
 <view class='custorm_ellip'>
   <text class="custorm_ellip_content">{{ isExpand ? content : renderText }}</text>
-  <text class="custorm_ellip_action" bind:tap="bindSwitch" style='color: cornflowerblue; margin: {{ isExpand ? "0 2px" : "auto"}};' wx:if="{{ renderText  }}">{{ isExpand ? expandText : actionText  }}</text>
+  <text class="custorm_ellip_action" bind:tap="bindSwitch" style='color: {{ isExpand ? expandColor : actionColor }}; margin: {{ isExpand ? "0 2px" : "auto"}};' wx:if="{{ renderText  }}">{{ isExpand ? expandText : actionText  }}</text>
 </view>
-<canvas type="2d" style="position:absolute; left: -999px" class="custorm_myCanvas"></canvas>
+<canvas wx:if="{{ !oldVersion }}" type="2d" style="position:absolute; left: -999px" class="custorm_myCanvas"></canvas>
