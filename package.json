@@ -31,13 +31,12 @@
     "url": "https://github.com/caixinzhia/wechatEllipsis/issues"
   },
   "homepage": "https://github.com/caixinzhia/wechatEllipsis#readme",
-  "dependencies": {
-    "prettier": "^3.2.5"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browserslist": "^4.23.0",
     "jest": "^27.3.1",
-    "miniprogram-simulate": "^1.4.2"
+    "miniprogram-simulate": "^1.4.2",
+    "prettier": "^3.2.5"
   },
   "browserslist": [
     "Chrome >= 53",
